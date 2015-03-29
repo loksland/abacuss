@@ -1,0 +1,35 @@
+{
+  "name": "abacuss",
+  "version": "0.1.1",
+  "description": "Combining maths and swearing in your command line",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/loksland/abacuss.git"
+  },
+  "keywords": [
+    "abacus",
+    "calculator",
+    "calc",
+    "maths",
+    "shell"
+  ],
+  "author": "loksland",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/loksland/abacuss/issues"
+  },
+  "bin": {
+    "abacuss": "index.js"
+  },
+  "homepage": "https://github.com/loksland/abacuss",
+  "preferGlobal": "true",
+  "dependencies": {
+    "data-expression": "^0.3.0",
+    "figlet": "^1.1.0",
+    "shell": "^0.3.2"
+  }
+}
