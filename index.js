@@ -9,10 +9,10 @@ var datex = require('data-expression');
 var LIB_NAME = 'abacuss'; 
 var BLANK_PROMPT = ''; //'ready '
 var PROMPT_SUFFIX = '>>';
-var CUSS_WORDS = ['dang'];
+var CUSS_WORDS = ['dang','fudge it','corr blimey'];
 
 function main(){
-	
+
 	app = new shell({ 
 										chdir: __dirname,
 										prompt: BLANK_PROMPT + PROMPT_SUFFIX,
@@ -49,9 +49,9 @@ function main(){
 			try {
 				
 				if (blank || (c1 >= '0' && c1 <= '9')){	
-					newVal = datex(exp, {});		
+					newVal = datex(exp, {})();		
 				} else {		
-					newVal = datex('val ' + exp, {val: val});		
+					newVal = datex('val ' + exp, {val: val})();		
 				}
 			
 			} catch(err) {
@@ -59,6 +59,7 @@ function main(){
 			}
 			
 			if (error || isNaN(Number(newVal))){
+			
 				app.styles.red(CUSS_WORDS[Math.floor(CUSS_WORDS.length*Math.random())]).ln();
 			} else {
 				val = newVal;

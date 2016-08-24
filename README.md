@@ -1,5 +1,5 @@
-Abacuss v0.1.1
-==============
+Abacuss
+=======
 
 Abacuss is a command line calculator
 
@@ -50,5 +50,7 @@ To quit enter `control-c`
 
 ### Release History ###
 
+- v0.1.3 - Removed console output error
+- v0.1.2 - Updated dependencies
 - v0.1.1 - Global install bugfix
 - v0.1.0 - Initial release
