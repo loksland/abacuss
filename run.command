@@ -5,9 +5,4 @@
 
 cd "`dirname "$0"`"
 
-open /Applications/Google\ Chrome.app http://localhost:1234
-
-gfms -p1234 -n -a
-
-
-
+node index

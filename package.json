@@ -1,6 +1,6 @@
 {
   "name": "abacuss",
-  "version": "0.1.3",
+  "version": "0.1.6",
   "description": "Combining maths and swearing in your command line",
   "main": "index.js",
   "scripts": {

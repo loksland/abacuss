@@ -25,12 +25,12 @@ Enter a numeric expression to get going:
 8 >>
 ```
 
-The running total is shown. 
+The running total is shown.
 
 This can be included in future expressions:
 ```bash
-8 >>*8 
-64 >>/2 
+8 >>*8
+64 >>/2
 32 >>
 ```
 
@@ -49,7 +49,9 @@ Clear the running total by hitting enter or entering 'clear'...
 To quit enter `control-c`
 
 ### Release History ###
-
+- v0.1.6 - Added modulo (%) support
+- v0.1.5 - Updating packages, Node v10.7.0 support
+- v0.1.4 - Strips non-numeric input
 - v0.1.3 - Removed console output error
 - v0.1.2 - Updated dependencies
 - v0.1.1 - Global install bugfix
